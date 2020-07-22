@@ -16,11 +16,11 @@ export const config = {
 
   // Header customization
   header: {
-    backgroundColor: '#f1f6f8', // can be a CSS gradient
+    backgroundColor: '#09cc7f', // can be a CSS gradient
     backgroundColorDark: '#4C566A',
-    titleColor: '#ff5252',
-    titleColorDark: '#16a085',
-    subtitleColor: '#37474f',
+    titleColor: '#002D5B',
+    titleColorDark: '#ffffff',
+    subtitleColor: '#454d72',
     subtitleColorDark: '#D8DEE9',
   },
 };
