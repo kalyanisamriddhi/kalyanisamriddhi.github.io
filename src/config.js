@@ -6,7 +6,7 @@ export const config = {
   githubUserName: "kalyanisamriddhi",
 
   // Your Github Repo Name Where You Have your issues as Blog
-  githubRepo: "kalyanisamriddhi",
+  githubRepo: "website-content",
 
   // Your Personal Blog Title
   title: "Kalyani Samriddhi",
