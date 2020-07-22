@@ -1,12 +1,12 @@
 export const config = {
   // Your Github Converted Token To Know How To Get Your Token Look at Readme.md
-  githubConvertedToken: "MzM2N2YxZDRjNDk5MmQ4MGVjNzQwYmM5Y2FlZWYyNDE0ZGQ4NWFiYQ==",
+  githubConvertedToken: "ZGI2M2QxNTkxMmJhZTY1YjdmNTAzM2IxYjYyOGU1ZGY4YWRiNTRiOQ==",
 
   // Your Github UserName
   githubUserName: "kalyanisamriddhi",
 
   // Your Github Repo Name Where You Have your issues as Blog
-  githubRepo: "website-content",
+  githubRepo: "kalyanisamriddhi",
 
   // Your Personal Blog Title
   title: "Kalyani Samriddhi",
