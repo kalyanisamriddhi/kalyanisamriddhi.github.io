@@ -23,9 +23,11 @@ $ npm install
 
 ### 2. Generate a Github Personal Access Token
 Generate a Github personal access token using these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
+
 `Note: Make sure you don't select any scope just generate a simple token without any scope`
 
 After that copy your generated token and then encode your token into base 64 using this [website](http://www.utilities-online.info/base64/)
+
 `Note: Save your base64 converted token for next step`
 
 ### 3. Change `/src/config.js`
