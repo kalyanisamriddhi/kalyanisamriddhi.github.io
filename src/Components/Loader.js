@@ -7,11 +7,12 @@ const LoaderContainer = styled.span`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 150px;
 `
-
-export const Loader = () => (
+const Loader = () => (
   <LoaderContainer>
     <LoaderSvg fill="#2ecc71" />
   </LoaderContainer>
 )
+
+export default Loader;

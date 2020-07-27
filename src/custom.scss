@@ -1,0 +1,21 @@
+$primary: #072366;
+$secondary: #6c757d;
+$success: #09cc7f;
+$info: #1696e7;
+$warning: #ffc107;
+$danger: #ec5b53;
+$light: #f8f9fa;
+$dark: #464d65;
+$btn-focus-box-shadow: none !important;
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+@import '~bootstrap/scss/bootstrap';
+
+body,
+html {
+  font-family: 'Mulish', sans-serif;
+}
+
+.no-list>li {
+  list-style: none;
+}

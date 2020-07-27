@@ -13,8 +13,8 @@ const Application = () => {
       <Helmet>
         <title>{config.title}</title>
         <meta charSet="utf-8" />
-        <meta name="description" content={config.subtitle} />
-        <meta name="theme-color" content={config.header.backgroundColor} />
+        <meta name="description" content={config.description} />
+        <meta name="theme-color" content="#09cc7f" />
       </Helmet>
       <ApolloProvider client={client}>
         <Router />

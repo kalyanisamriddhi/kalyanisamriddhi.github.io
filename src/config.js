@@ -11,16 +11,6 @@ export const config = {
   // Your Personal Blog Title
   title: "Kalyani Samriddhi",
 
-  // Your Personal Blog Subtitle
-  subtitle: "Kalyani Samriddhi NGO",
-
-  // Header customization
-  header: {
-    backgroundColor: '#09cc7f', // can be a CSS gradient
-    backgroundColorDark: '#4C566A',
-    titleColor: '#002D5B',
-    titleColorDark: '#ffffff',
-    subtitleColor: '#454d72',
-    subtitleColorDark: '#D8DEE9',
-  },
+  // Your Personal Blog Description
+  description: "Kalyani Samriddhi NGO"
 };
