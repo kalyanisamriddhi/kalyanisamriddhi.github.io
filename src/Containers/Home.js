@@ -3,7 +3,7 @@ import { gql } from "apollo-boost";
 import { useQuery } from '@apollo/react-hooks';
 
 import { config } from "../config";
-import { Header } from "../Components/Header";
+import NavBar from "../Components/NavBar";
 import { Loader } from '../Components/Common'
 import { BlogContainer } from '../Components/Blog'
 import { Card } from '../Components/Blog/Card'
@@ -38,7 +38,7 @@ const GET_POSTS = gql`
 }
 `
 
-const Blog = () => {
+const Home = () => {
   const [posts, setPosts] = useState([]);
   const { loading, error, data } = useQuery(GET_POSTS);
 
@@ -47,7 +47,6 @@ const Blog = () => {
       if (error) {
         console.error(error)
       }
-
       if (data) {
         setPosts(data?.repository?.issues?.nodes)
       }
@@ -56,12 +55,12 @@ const Blog = () => {
 
   return (
     <>
-      <Header />
+      <NavBar />
       <BlogContainer>
         {
           loading
-          ? <Loader />
-          : posts.map((v, i) => {
+            ? <Loader />
+            : posts.map((v, i) => {
               return <Card blog={v} key={i} />;
             })
         }
@@ -70,4 +69,4 @@ const Blog = () => {
   );
 }
 
-export default Blog;
+export default Home;

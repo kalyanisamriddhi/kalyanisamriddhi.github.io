@@ -78,7 +78,7 @@ code {
   padding: 3px 5px;
 }
 
-pre > code {
+pre>code {
   background: transparent !important;
   font-family: "Quicksand";
   font-size: 18px;
@@ -143,6 +143,7 @@ img {
     opacity: 0;
     transform: scale(0.5);
   }
+
   100% {
     opacity: 1;
     transform: scale(1);
@@ -150,12 +151,14 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
+
   p,
   i,
   a,
   li {
     font-size: 18px;
   }
+
   blockquote {
     font-size: 20px;
   }
