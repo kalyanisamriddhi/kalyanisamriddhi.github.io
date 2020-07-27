@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 const GET_POSTS = gql`
 {
   repository(owner: "${config.githubUserName}", name: "${config.githubRepo}") {
-    issues(first: 3, states: OPEN, filterBy: { labels: "blog" }, orderBy: {direction: DESC, field: CREATED_AT}) {
+    issues(first: 3, states: OPEN, filterBy: { labels: "event" }, orderBy: {direction: DESC, field: CREATED_AT}) {
       nodes {
         title
         body

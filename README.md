@@ -39,13 +39,7 @@ export const config = {
   githubUserName: "Your username here",
   githubRepo: "Your issues repo name here",
   title : "Title of your site",
-  subtitle : "Subtitle of your site",
-  // Header customization
-  header: {
-    backgroundColor: '#f1f6f8', // can be a CSS gradient
-    titleColor: '#ff5252',
-    subtitleColor: '#37474f',
-  },
+  description: "Kalyani Samriddhi NGO"
 };
 ```
 ### 4. Write content
@@ -54,7 +48,7 @@ After doing following changes now you just need to write an issue on repository 
 - Open your repository [github issues](https://github.com/kalyanisamriddhi/website/issues)
 - Create a new issue 
 - Now write your content in github issue in markdown. You can also use [SlackEdit](https://stackedit.io/app#) or [Dillinger](https://dillinger.io/) to write your markdown
-- Add a label `blog` on your github issue to make it different from other standard issues. Keep in mind `blog` label is mandatory otherwise it won't show on the website
+- Add a label `event` on your github issue to make it different from other standard issues. Keep in mind `event` label is mandatory otherwise it won't show on the website
 
 ### 5. **Start Your React App.**
 That's it now you just need to start your react application, from your command line run
