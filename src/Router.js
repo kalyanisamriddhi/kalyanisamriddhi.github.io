@@ -31,7 +31,7 @@ const Router = () => {
 };
 
 const NavPadding = styled.div`
-  min-height: 80px;
+  min-height: 70px;
 `
 
 export default Router;

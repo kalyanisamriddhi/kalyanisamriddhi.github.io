@@ -6,7 +6,8 @@ import { config } from "../config";
 import Loader from '../Components/Loader'
 import EventCard from '../Components/EventCard'
 
-import { Container, Row, Col } from 'reactstrap'
+import { Container, Row } from 'reactstrap'
+import PageHeader from "../Components/PageHeader";
 
 const GET_POSTS = gql`
 {
@@ -41,16 +42,10 @@ const Events = () => {
   }, [loading, error, data]);
 
   return (
-    <div style={{ padding: "70px 0" }}>
-      <Container fluid>
-        <Row>
-          <Col className="text-center" sm="12" md={{ offset: 2, size: 8 }} lg={{ offset: 4, size: 4 }}>
-            <h1 className="text-primary font-weight-bold mb-4">Explore our latest causes that we works</h1>
-          </Col>
-        </Row>
-      </Container>
+    <div style={{ padding: "0 0 70px 0" }}>
+      <PageHeader title="Explore our latest causes that we works/Events" />
       <Container>
-        <Row className="justify-content-center" style={{minHeight: "40vh"}}>
+        <Row className="justify-content-center mt-5" style={{ minHeight: "40vh" }}>
           {
             loading
               ? <Loader />

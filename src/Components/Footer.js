@@ -15,15 +15,15 @@ const Footer = () => {
                         </Link>
                     </Col>
                     <Col className="mt-2" sm="12" lg={{ offset: 1, size: 3 }}>
-                        <h5 className="text-white">Contact Info</h5>
+                        <h6 className="text-white mb-1">Contact Info</h6>
                         <ListGroup className="no-list">
                             <li>Address: Your address goes here, your demo address.</li>
                             <li>Phone: +8880 44338899</li>
                             <li>Email: contact@kalyanisamriddhi.com</li>
                         </ListGroup>
                     </Col>
-                    <Col className="mt-2" sm="12" lg={{ offset: 1, size: 3 }}>
-                        <h5 className="text-white">Important Links</h5>
+                    <Col className="mt-3 mt-lg-2" sm="12" lg={{ offset: 1, size: 3 }}>
+                        <h6 className="text-white mb-1">Important Links</h6>
                         <ListGroup className="no-list">
                             <li><FooterLink to="/about"> About Us</FooterLink></li>
                             <li><FooterLink to="/events"> Events</FooterLink></li>
