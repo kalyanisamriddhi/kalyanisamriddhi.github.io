@@ -17,8 +17,8 @@ const Footer = () => {
                     <Col className="mt-2" sm="12" lg={{ offset: 1, size: 3 }}>
                         <h6 className="text-white mb-1">Contact Info</h6>
                         <ListGroup className="no-list">
-                            <li>Address: Your address goes here, your demo address.</li>
-                            <li>Phone: +8880 44338899</li>
+                            <li>Address: Kalyani Solvex, Sudarshanpur,<br /> Raiganj, Uttar Dinajpur, West Bengal - 733134</li>
+                            <li>Phone: +91 9733008834</li>
                             <li>Email: contact@kalyanisamriddhi.com</li>
                         </ListGroup>
                     </Col>
@@ -33,7 +33,7 @@ const Footer = () => {
                 </Row>
                 <Row className="pb-3 text-secondary mt-2">
                     <Col sm="12" lg={{ offset: 1, size: "auto" }}>
-                        <p className="ml-lg-5 mb-0 small">Copyright ©2020 All rights reserved | Made by Avi Garg & Yash Kalyani</p>
+                        <p className="ml-lg-5 mb-0 small">Copyright © 2020 All rights reserved | Made by Avi Garg & Yash Kalyani</p>
                     </Col>
                 </Row>
             </Container>

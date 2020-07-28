@@ -16,13 +16,6 @@ export default function EventPost() {
       issue(number: ${issueNumber}) {
         title
         body
-        bodyHTML
-        url
-        bodyText
-        number
-        bodyHTML
-        updatedAt
-        id
       }
     }
   }
@@ -35,6 +28,7 @@ export default function EventPost() {
       if (data) {
         const issues = data.repository.issue;
         setPost(issues);
+        console.log(issues)
       }
     }
   }, [loading, error, data]);

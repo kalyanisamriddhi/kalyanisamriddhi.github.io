@@ -18,10 +18,7 @@ const GET_POSTS = gql`
       nodes {
         title
         body
-        bodyHTML
-        bodyText
         number
-        id
       }
     }
   }
@@ -49,8 +46,8 @@ const Home = () => {
         <Container fluid className="h-100 d-flex align-items-center">
           <Row>
             <Col sm="12" lg={{ offset: 2, size: 8 }}>
-              <h1 className="text-primary display-3 font-weight-bold">Our Helping to the world.</h1>
-              <p className="mt-3 mb-4 text-secondary">Onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut bore et dolore magnt, sed do eiusmod.</p>
+              <h1 className="text-primary display-3 font-weight-bold">For The Ones In Need</h1>
+              <p className="mt-3 mb-4 text-secondary">A Bengal based NGO, with a vision to make a difference in society for the civic benefit.</p>
               <Link to="/contact">
                 <Button className="rounded-0 px-4" color="success" size="lg">
                   Contact
@@ -64,8 +61,8 @@ const Home = () => {
         <Container fluid>
           <Row>
             <Col className="d-flex justify-content-center flex-column" sm="12" lg={{ offset: 1, size: 5 }}>
-              <h5 className="text-success font-weight-bold mb-3">About our foundetion</h5>
-              <h1 className="text-primary font-weight-bold mb-4">We Are In A Mission To  Help Helpless</h1>
+              <h5 className="text-success font-weight-bold mb-3">About Our Foundation</h5>
+              <h1 className="text-primary font-weight-bold mb-4">We Are In A Mission To  Help The Helpless</h1>
               <p className="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p>
               <p className="text-secondary">Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut labore et dolore.</p>
               <Link to="/about">
@@ -83,9 +80,9 @@ const Home = () => {
       <div style={{ padding: "100px 0" }}>
         <Container fluid>
           <Row>
-            <Col className="text-center" sm="12" md={{ offset: 2, size: 8 }} lg={{ offset: 4, size: 4 }}>
-              <h5 className="text-success font-weight-bold mb-3">Our Events you can see</h5>
-              <h1 className="text-primary font-weight-bold mb-4">Explore our latest causes that we works</h1>
+            <Col className="text-center" sm="12" md={{ offset: 2, size: 8 }} lg={{ offset: 3, size: 6 }}>
+              <h5 className="text-success font-weight-bold mb-3">Our Recent Efforts</h5>
+              <h1 className="text-primary font-weight-bold mb-4">Explore our latest causes that we worked on</h1>
             </Col>
           </Row>
           <Row className="justify-content-center">

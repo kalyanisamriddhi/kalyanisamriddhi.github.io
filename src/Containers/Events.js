@@ -16,10 +16,7 @@ const GET_POSTS = gql`
       nodes {
         title
         body
-        bodyHTML
-        bodyText
         number
-        id
       }
     }
   }
@@ -43,7 +40,7 @@ const Events = () => {
 
   return (
     <div style={{ padding: "0 0 70px 0" }}>
-      <PageHeader title="Explore our latest causes that we works/Events" />
+      <PageHeader title="Our Events" />
       <Container>
         <Row className="justify-content-center mt-5" style={{ minHeight: "40vh" }}>
           {

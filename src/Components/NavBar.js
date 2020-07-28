@@ -18,7 +18,7 @@ const NavBar = () => {
                 <Collapse isOpen={!collapsed} navbar>
                     <Nav className="ml-auto my-3 my-lg-0" navbar>
                         <NavItem className="d-flex align-items-center pr-2 mr-3 py-1">
-                            <CustomNavLink to="/about" className="text-primary">About</CustomNavLink>
+                            <CustomNavLink to="/about" className="text-primary">About Us</CustomNavLink>
                         </NavItem>
                         <NavItem className="d-flex align-items-center pr-2 mr-2 py-1">
                             <CustomNavLink to="/events" className="text-primary">Events</CustomNavLink>

@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row, Col } from 'reactstrap'
 import PageHeader from "../Components/PageHeader";
 import AboutCard from "../Components/AboutCard";
-import { mdiCupWater } from '@mdi/js';
+import { mdiBookOpenPageVariant, mdiFoodApple, mdiHospitalBox } from '@mdi/js';
 import aboutImg from '../img/about.png';
 import styled from "styled-components";
 
@@ -11,18 +11,18 @@ const About = () => {
 
   const aboutArray = [
     {
-      icon: mdiCupWater,
-      title: "Clean Water",
+      icon: mdiBookOpenPageVariant,
+      title: "Educational Scholarship",
       text: "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to."
     },
     {
-      icon: mdiCupWater,
-      title: "Clean Water",
+      icon: mdiHospitalBox,
+      title: "Medical Facilities",
       text: "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to."
     },
     {
-      icon: mdiCupWater,
-      title: "Clean Water",
+      icon: mdiFoodApple,
+      title: "Clean Water & Food",
       text: "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to."
     }
   ]
@@ -33,9 +33,9 @@ const About = () => {
       <div style={{ background: "#F8FCFF", padding: "100px 0" }}>
         <Container fluid>
           <Row>
-            <Col className="text-center" sm="12" md={{ offset: 2, size: 8 }} lg={{ offset: 4, size: 4 }}>
+            <Col className="text-center" sm="12" md={{ offset: 2, size: 8 }} lg={{ offset: 3, size: 6 }}>
               <h5 className="text-success font-weight-bold mb-3">What We Are Doing</h5>
-              <h1 className="text-primary font-weight-bold mb-4">We Are In A Mission To Help The Helpless</h1>
+              <h1 className="text-primary font-weight-bold mb-4">Lorem ipsum dolor sit amet consectetur elit</h1>
             </Col>
           </Row>
           <Row className="justify-content-center">
@@ -48,8 +48,8 @@ const About = () => {
       <Container className="mt-5" fluid>
         <Row>
           <Col className="d-flex justify-content-center flex-column" sm="12" lg={{ offset: 1, size: 5 }}>
-            <h5 className="text-success font-weight-bold mb-3">About our foundetion</h5>
-            <h1 className="text-primary font-weight-bold mb-4">We Are In A Mission To  Help Helpless</h1>
+            <h5 className="text-success font-weight-bold mb-3">About Our Foundation</h5>
+            <h1 className="text-primary font-weight-bold mb-4">We Are In A Mission To Help The Helpless</h1>
             <p className="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p>
             <p className="text-secondary">Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut labore et dolore.</p>
           </Col>
