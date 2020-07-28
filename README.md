@@ -39,7 +39,7 @@ export const config = {
   githubUserName: "Your username here",
   githubRepo: "Your issues repo name here",
   title : "Title of your site",
-  description: "Kalyani Samriddhi NGO"
+  description: "Your meta description"
 };
 ```
 ### 4. Write content
