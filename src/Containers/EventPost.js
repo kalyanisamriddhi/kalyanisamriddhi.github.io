@@ -89,8 +89,8 @@ export default function EventPost() {
               {author && <p className="text-secondary font-weight-light mb-0">Author: {author}</p>}
               {date && <p className="text-secondary font-weight-light mb-0">Date: {date}</p>}
               {location && <p className="text-secondary font-weight-light mb-1">Location: {location}</p>}
-              <p className="text-secondary font-weight-light mb-0">For more event images and details follow the link below.</p>
-              <Button color="success" href={drive} className="px-3 rounded-0 mt-1" size="sm" target="_blank" rel="noopener noreferrer">Drive</Button>
+              {drive && <p className="text-secondary font-weight-light mb-0">For more event images and details follow the link below.</p>
+                <Button color="success" href={drive} className="px-3 rounded-0 mt-1" size="sm" target="_blank" rel="noopener noreferrer">Drive</Button>}
             </Col>
             <Col sm="12" lg="5" className="order-1 order-lg-2 mb-2">
               <img src={img} className="w-100 img-fluid shadow" alt="" />
