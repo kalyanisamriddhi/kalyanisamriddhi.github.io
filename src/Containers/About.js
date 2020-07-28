@@ -1,31 +1,13 @@
 import React from "react";
 
+import { text, aboutArray } from "../text";
 import { Container, Row, Col } from 'reactstrap'
 import PageHeader from "../Components/PageHeader";
 import AboutCard from "../Components/AboutCard";
-import { mdiBookOpenPageVariant, mdiFoodApple, mdiHospitalBox } from '@mdi/js';
 import aboutImg from '../img/about.png';
 import styled from "styled-components";
 
 const About = () => {
-
-  const aboutArray = [
-    {
-      icon: mdiBookOpenPageVariant,
-      title: "Educational Scholarship",
-      text: "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to."
-    },
-    {
-      icon: mdiHospitalBox,
-      title: "Medical Facilities",
-      text: "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to."
-    },
-    {
-      icon: mdiFoodApple,
-      title: "Clean Water & Food",
-      text: "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to."
-    }
-  ]
 
   return (
     <div style={{ padding: "0 0 70px 0" }}>
@@ -34,8 +16,8 @@ const About = () => {
         <Container fluid>
           <Row>
             <Col className="text-center" sm="12" md={{ offset: 2, size: 8 }} lg={{ offset: 3, size: 6 }}>
-              <h5 className="text-success font-weight-bold mb-3">What We Are Doing</h5>
-              <h1 className="text-primary font-weight-bold mb-4">Lorem ipsum dolor sit amet consectetur elit</h1>
+              <h5 className="text-success font-weight-bold mb-3">{text.about.title2}</h5>
+              <h1 className="text-primary font-weight-bold mb-4">{text.about.head2}</h1>
             </Col>
           </Row>
           <Row className="justify-content-center">
@@ -48,10 +30,10 @@ const About = () => {
       <Container className="mt-5" fluid>
         <Row>
           <Col className="d-flex justify-content-center flex-column" sm="12" lg={{ offset: 1, size: 5 }}>
-            <h5 className="text-success font-weight-bold mb-3">About Our Foundation</h5>
-            <h1 className="text-primary font-weight-bold mb-4">We Are In A Mission To Help The Helpless</h1>
-            <p className="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p>
-            <p className="text-secondary">Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut labore et dolore.</p>
+            <h5 className="text-success font-weight-bold mb-3">{text.about.title}</h5>
+            <h1 className="text-primary font-weight-bold mb-4">{text.about.head}</h1>
+            <p className="text-secondary">{text.about.text1}</p>
+            <p className="text-secondary">{text.about.text2}</p>
           </Col>
           <Col className="text-center mt-4 mt-lg-0" sm="12" lg="5">
             <AboutImg src={aboutImg} alt="" />
