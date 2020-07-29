@@ -16,7 +16,7 @@ const NavBar = () => {
                 <Link to="/">
                     <img src={logo} alt="Kalyani Samriddhi" width="70px" />
                 </Link>
-                <Button color="transparent" className="px-0" onClick={toggleNavbar}>
+                <Button color="transparent" className="px-0 d-block d-lg-none" onClick={toggleNavbar}>
                     <Icon path={collapsed ? mdiMenu : mdiClose} color="#07a768" size={1.5} />
                 </Button>
                 <Collapse isOpen={!collapsed} navbar>
