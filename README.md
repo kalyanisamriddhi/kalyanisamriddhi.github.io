@@ -1,5 +1,6 @@
 # Kalyani Samriddhi NGO
 ![Build and Deploy](https://github.com/kalyanisamriddhi/website/workflows/Build%20and%20Deploy/badge.svg?branch=master)
+![Events](https://img.shields.io/github/issues/kalyanisamriddhi/website/event?color=green&label=events)
 ## 🚀 Super fast setup
 Run the code locally for testing and development purposes by following steps mentioned below.
 
