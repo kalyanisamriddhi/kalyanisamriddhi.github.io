@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { Collapse, Navbar, NavbarToggler, Nav, NavItem, Button } from 'reactstrap';
+import { Collapse, Navbar, Nav, NavItem, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import logo from '../img/logo-circle-text.png';
 import styled from 'styled-components';
+import { mdiMenu, mdiClose } from '@mdi/js';
+import Icon from '@mdi/react';
 
 const NavBar = () => {
     const [collapsed, setCollapsed] = useState(true);
@@ -14,7 +16,9 @@ const NavBar = () => {
                 <Link to="/">
                     <img src={logo} alt="Kalyani Samriddhi" width="70px" />
                 </Link>
-                <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+                <Button color="transparent" className="px-0" onClick={toggleNavbar}>
+                    <Icon path={collapsed ? mdiMenu : mdiClose} color="#07a768" size={1.5} />
+                </Button>
                 <Collapse isOpen={!collapsed} navbar>
                     <Nav className="ml-auto my-3 my-lg-0" navbar>
                         <NavItem className="d-flex align-items-center pr-2 mr-3 py-1">

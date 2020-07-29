@@ -5,7 +5,6 @@ import { useQuery } from "@apollo/react-hooks";
 
 import { config } from "../config";
 import Loader from '../Components/Loader'
-
 import { Container, Breadcrumb, BreadcrumbItem, Row, Col, Button } from "reactstrap";
 import { Link } from "react-router-dom";
 
