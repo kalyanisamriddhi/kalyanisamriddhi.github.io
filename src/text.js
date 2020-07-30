@@ -8,8 +8,8 @@ export const text = {
   about: {
     title: "About Our Foundation",
     head: "We Are In A Mission To Help The Helpless",
-    text1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.",
-    text2: "Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut labore et dolore.",
+    text1: "Kalyani Samriddhi is a non-profit charity organization and an integral part of Kalyani Group of Industries.",
+    text2: "We aim to provide donations, not exclusivey monetary, to those in need. Funds for scholarships and medical facilities are provided as well as ration for the poor.",
     title2: "What We Are Doing",
     head2: "Lorem ipsum dolor sit amet consectetur elit"
   },
@@ -23,7 +23,7 @@ export const aboutArray = [
   {
     icon: mdiBookOpenPageVariant,
     title: "Educational Scholarship",
-    text: "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to."
+    text: "Edcuation is a right to every child, and we aim to not deprive any child of that. By providing educational scholarships, we aim to assist the financially burdened in achieving an educational qualification."
   },
   {
     icon: mdiHospitalBox,
