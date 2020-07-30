@@ -23,7 +23,7 @@ export const aboutArray = [
   {
     icon: mdiBookOpenPageVariant,
     title: "Educational Scholarship",
-    text: "Edcuation is a right, and we aim to not deprive any child of that. By providing scholarships, we aim to assist the financially burdened in achieving an educational qualification."
+    text: "To ensure that the financially burdened are not deprived of an educational qualification, we provide scholarships to assist them."
   },
   {
     icon: mdiHospitalBox,
