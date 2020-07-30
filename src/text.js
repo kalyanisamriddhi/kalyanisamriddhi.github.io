@@ -28,12 +28,12 @@ export const aboutArray = [
   {
     icon: mdiHospitalBox,
     title: "Medical Facilities",
-    text: "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to."
+    text: "By providing monetary funds to patients, we want every human to have access to all medical facilities required for their treatment."
   },
   {
     icon: mdiFoodApple,
     title: "Clean Water & Food",
-    text: "The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to."
+    text: "We provide basic amenities like clean food and water to the homeless and poor."
   }
 ]
 
