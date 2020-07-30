@@ -12,4 +12,3 @@ ReactDOM.render(<Application />, document.getElementById('root'));
 // Learn more about service workers: https://bit.ly/CRA-PWA
 if (process.env.NODE_ENV === 'production') serviceWorker.unregister();
 else serviceWorker.unregister();
-
