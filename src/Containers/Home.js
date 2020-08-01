@@ -8,7 +8,7 @@ import Loader from '../Components/Loader'
 import EventCard from '../Components/EventCard'
 import { Button, Container, Col, Row } from 'reactstrap'
 import styled from "styled-components";
-import heroImg from '../img/hero-img.png';
+import heroImg from '../img/hero-img-2.png';
 import aboutImg from '../img/about.png';
 import { Link } from "react-router-dom";
 
