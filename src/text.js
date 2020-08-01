@@ -11,7 +11,7 @@ export const text = {
     text1: "One act of generosity is all it takes to bring hope to those who need it. Kalyani Samriddhi is a non-profit charity organization and an integral part of Kalyani Group of Industries.",
     text2: "We aim to provide donations, not exclusivey monetary, to those in need. We take an active interest in the civic, cultural, social and moral welfare of the community.",
     title2: "What We Are Doing",
-    head2: "Lorem ipsum dolor sit amet consectetur elit"
+    head2: "Our 3 primary raison d'être"
   },
   event: {
     title: "Our Recent Efforts",
