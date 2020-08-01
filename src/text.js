@@ -15,7 +15,7 @@ export const text = {
   },
   event: {
     title: "Our Recent Efforts",
-    head: "Explore our latest causes that we worked on"
+    head: "Explore our latest causes that we have worked on"
   }
 };
 
