@@ -67,7 +67,7 @@ export default function EventPost() {
 
   if (loading) {
     return (
-      <div className="d-flex align-items-center justify-content-center" style={{ minHeight: "70vh" }}>
+      <div className="d-flex align-items-center justify-content-center" style={{ minHeight: "80vh" }}>
         <Loader />
       </div>
     );
@@ -76,7 +76,7 @@ export default function EventPost() {
   return (
     <>
       {title &&
-        <Container className="mt-4" style={{ minHeight: "70vh", paddingBottom: "30px" }}>
+        <Container className="mt-4" style={{ minHeight: "80vh", paddingBottom: "30px" }}>
           <Breadcrumb className="small p-0">
             <BreadcrumbItem><Link to="/">Home</Link></BreadcrumbItem>
             <BreadcrumbItem><Link to="/events">Events</Link></BreadcrumbItem>
